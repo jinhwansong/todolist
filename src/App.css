@@ -31,7 +31,7 @@
 h1,p,input,label{font-weight:400;font-family: 'Pretendard';font-size:15px;color:#555;line-height:1;}
 
 /* ------------------------------------------------------------ */
-.todo-list{background:linear-gradient(to bottom right,#466dda,#324ede);width:100vw;height:100vh;display: flex;justify-content: center;align-items: center;}
+.todo-list{background:url(./img/god.png)center center no-repeat;background-size:cover;width:100vw;height:100vh;display: flex;justify-content: center;align-items: center;}
 .todo-list .todo{width:800px;box-shadow:0 0 24px #0f1534 ;overflow: hidden;border-radius: 15px 15px;}
 .todo-list .todo .todo_h{background:#fff;border-bottom:1px solid #d1d1d7;padding:30px 30px;display:flex; align-items: center;justify-content: space-between;}
 .todo-list .todo .todo_h h1{line-height: 1;color: #324ede;font-size:30px;font-weight:800;}

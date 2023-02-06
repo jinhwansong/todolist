@@ -4,7 +4,10 @@ import Todolists from './components/Todolists';
 import './App.css';
 
 const App = () => {
-  const [todolist, setTodolist] = useState([]);
+  //디폴트값
+  const [todolist, setTodolist] = useState([
+    {id : 0, title: '제목입니다.', context:'내용입니다.', done: false},
+  ]);
   const [title,setTitle] = useState('')
   const [context, setContext] = useState("");
   const titleHandler = (event) => {
